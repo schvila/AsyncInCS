@@ -51,7 +51,7 @@ namespace ConsoleAwaitNet5
             return await Task.Run(() =>
             {
                 Image image = Image.Load(imagePath);
-                image.Mutate(ctx => ctx.GaussianBlur());
+                image.Mutate(ctx => ctx.GaussianBlur(20));
                 using(var memoryStream = new MemoryStream())
                 {
                     image.SaveAsJpeg(memoryStream);
