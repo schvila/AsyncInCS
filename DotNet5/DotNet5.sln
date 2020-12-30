@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncDotNet5", "AsyncDotNet5\AsyncDotNet5.csproj", "{3CF7D123-CB9C-4420-B8C1-2882F4AD611B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAwaitNet5", "ConsoleAwaitNet5\ConsoleAwaitNet5.csproj", "{0C219767-12A0-4399-840E-4C9E71A0206F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAwaitNet5", "ConsoleAwaitNet5\ConsoleAwaitNet5.csproj", "{0C219767-12A0-4399-840E-4C9E71A0206F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFUserInterface", "WPFUserInterface\WPFUserInterface.csproj", "{14FE9A43-1A16-4CC4-9EF5-8F0E22EBB8C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,14 @@ Global
 		{0C219767-12A0-4399-840E-4C9E71A0206F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0C219767-12A0-4399-840E-4C9E71A0206F}.Release|x64.ActiveCfg = Release|Any CPU
 		{0C219767-12A0-4399-840E-4C9E71A0206F}.Release|x64.Build.0 = Release|Any CPU
+		{14FE9A43-1A16-4CC4-9EF5-8F0E22EBB8C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14FE9A43-1A16-4CC4-9EF5-8F0E22EBB8C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14FE9A43-1A16-4CC4-9EF5-8F0E22EBB8C0}.Debug|x64.ActiveCfg = Debug|x64
+		{14FE9A43-1A16-4CC4-9EF5-8F0E22EBB8C0}.Debug|x64.Build.0 = Debug|x64
+		{14FE9A43-1A16-4CC4-9EF5-8F0E22EBB8C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14FE9A43-1A16-4CC4-9EF5-8F0E22EBB8C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14FE9A43-1A16-4CC4-9EF5-8F0E22EBB8C0}.Release|x64.ActiveCfg = Release|x64
+		{14FE9A43-1A16-4CC4-9EF5-8F0E22EBB8C0}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
